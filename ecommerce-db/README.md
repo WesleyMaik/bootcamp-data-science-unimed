@@ -18,7 +18,6 @@ Criar um esquema conceitual para uma loja virtual.
 - O Pix deve ter a chave pix e o token.
 - A entrega deve ter data de entrega, código de rastreio, endereço de entrega, status, data do pedido, e valor do frete.
 
-
 ### Relacionamentos
 - Um Usuário pode ter N Pedidos.
 - Um Pedido pode ter N Produtos, uma forma de pagamento e uma opção de delivery.
@@ -26,6 +25,8 @@ Criar um esquema conceitual para uma loja virtual.
 - Um Fornecedor pode fornecer N Produtos.
 - Um Vendedor pode vender N Produtos com quantidade.
 - O Pagamento pode ter um Cartão de Crédito, Boleto e/ou Pix.
+
 ---
+
 ## Modelo:
 ![DB Model](ecommercedb-model.png)
