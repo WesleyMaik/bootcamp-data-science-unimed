@@ -1,19 +1,19 @@
-# dio-live-athena
-Repositório para a live do dia 01/10/2021 sobre o Amazon Athena
+## Desafio - Explorando Dados Demográficos com Serviços de Big Data na AWS
 
 ### Serviços utilizados nessa atividade prática
- - Amazon S3
- - Amazon Glue
- - Amazon Athena
- - Amazon QuickSight
+
+- Amazon S3
+- Amazon Glue
+- Amazon Athena
+- Amazon QuickSight
 
 ### Etapas para desenvolvimento
 
 ### Criar bucket no Amazon S3
 
 - Amazon S3 Console -> Buckets -> Create bucket -> Bucket name [nome_do bucket] - Create bucket
-- Create folder (Criar uma pasta chamada ```/output``` e outra com o nome do seu conjunto de dados. Este nome irá definir o nome da tabela criada no Glue)
-- Upload dos arquivos de dados localizados na pasta ```/data```
+- Create folder (Criar uma pasta chamada `/output` e outra com o nome do seu conjunto de dados. Este nome irá definir o nome da tabela criada no Glue)
+- Upload dos arquivos de dados localizados na pasta `/data`
 
 #### Criar Glue Crawler
 
@@ -30,7 +30,7 @@ Repositório para a live do dia 01/10/2021 sobre o Amazon Athena
 ### Criar aplicação no Amazon Athena
 
 - Query editor -> Settings -> Manage settings -> Query result location and encryption -> Browse S3 -> selecionar o bucket criado
-- Selecionar Database -> criar queries (exemplos na pasta ```/src```)
+- Selecionar Database -> criar queries (exemplos na pasta `/src`)
 - Verificar queries não salvas no bucket criado no S3
 - Salavar queries -> Executar novamente -> Verificar no bucket criado no S3
 
@@ -48,5 +48,5 @@ Repositório para a live do dia 01/10/2021 sobre o Amazon Athena
 - Criar visualizações selecionando colunas, criando filtros e parâmetros e selecionando Visual types para gráficos.
 
 ### Eliminar recursos
- - Exluir os elementos criados
 
+- Exluir os elementos criados
